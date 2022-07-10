@@ -18,7 +18,6 @@ let tuplaPlayers: [string, number, boolean] = ['Doncic', 5, true];
 
 // Tuple Array
 let players: [number, string][];
-
 players = [
     [1, 'Lebron'],
     [2, 'Durand'],
@@ -26,9 +25,10 @@ players = [
 ];
 
 // Inferencia de tipos
-
 let myVariable;
-
 let myVariable1: String;
-
 let myVariable2 = 35;
+
+// Unions
+let myVariable3: String | number | null;
+myVariable3 = null;
