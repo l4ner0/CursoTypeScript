@@ -24,3 +24,11 @@ players = [
     [2, 'Durand'],
     [3, 'Carry']
 ];
+
+// Inferencia de tipos
+
+let myVariable;
+
+let myVariable1: String;
+
+let myVariable2 = 35;
