@@ -5,14 +5,14 @@ function greet (name: String = 'User'): void {
 
 greet('Dominicode');
 
-/* function getNumber(): number {
+function getNumber(): number {
     return Math.floor(Math.random() * 100);
 }
 
-console.log(getNumber()); */
+console.log(getNumber());
 
-/* function printPosition(position: {lat: number | String, long?: number}): void {
+function printPosition(position: {lat: number | String, long?: number}): void {
     console.log(`Latitud & Longitud are: LAT ${position.lat} LONG: ${position.long}`);
 }
 
-printPosition({lat: 56}); */
+printPosition({lat: 56});

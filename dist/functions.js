@@ -4,13 +4,11 @@ function greet(name = 'User') {
     console.log(`Hello, ${name.toUpperCase()} !!`);
 }
 greet('Dominicode');
-/* function getNumber(): number {
+function getNumber() {
     return Math.floor(Math.random() * 100);
 }
-
-console.log(getNumber()); */
-/* function printPosition(position: {lat: number | String, long?: number}): void {
+console.log(getNumber());
+function printPosition(position) {
     console.log(`Latitud & Longitud are: LAT ${position.lat} LONG: ${position.long}`);
 }
-
-printPosition({lat: 56}); */ 
+printPosition({ lat: 56 });
