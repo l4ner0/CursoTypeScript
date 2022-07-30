@@ -1,5 +1,5 @@
+"use strict";
 // Interfaces
-
 /* interface Person {
     id: number;
     name: string;
@@ -28,4 +28,4 @@ class Zoo implements Animal {
     getDogs(): void {
 
     }
-} */
+} */ 
