@@ -1,5 +1,13 @@
-/// <reference path="utility.ts" />
-let utils = Utility.Taxes;
+import { Person, generateRandomNumber } from './myModules';
+import { PI as myPI } from './myModules';
 
-console.log(utils.calculateIva(100));
-console.log(utils.calculatePenaltyIva(200));
+const user: Person = {
+    id: 1,
+    name: 'Diego'
+}
+
+console.log(myPI);
+
+console.log(user);
+
+console.log(generateRandomNumber());
